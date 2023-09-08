@@ -4,7 +4,6 @@ import Cards from "../../Components/Cards/cards";
 import {
   filterCreate,
   filterPokeByType,
- 
   getPokes,
   getTypes,
   orderBynameOrStrengh,
@@ -14,7 +13,6 @@ import Paginado from "../../Components/Page/page";
 import pokeB from "../../image/pokeB.png";
 import style from "./home.module.css";
 
-
 function Home() {
   const dispatch = useDispatch();
 
@@ -22,18 +20,14 @@ function Home() {
   const all = useSelector((state) => state.pokes);
   const types = useSelector((state) => state.types);
 
-
-
-
-
   const [pokeload, setPokeload] = useState(allPokemon.length ? true : false);
   const [order, setOrder] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [pokePage, setPokepage] = useState(12);
   const inOfLastPoke = currentPage * pokePage.toString();
   const inOfFirstPoke = inOfLastPoke - pokePage.toString();
-  const pokeCurrent = all.slice(inOfFirstPoke, inOfLastPoke) 
-    // all !== "object" ? all.slice(inOfFirstPoke, inOfLastPoke) : all;
+  const pokeCurrent = all.slice(inOfFirstPoke, inOfLastPoke);
+  // all !== "object" ? all.slice(inOfFirstPoke, inOfLastPoke) : all;
 
   console.log(all.slice(inOfLastPoke, inOfFirstPoke));
   const paginado = (numPag) => {
@@ -80,7 +74,6 @@ function Home() {
 
   return (
     <>
-     
       <div className={style.home}>
         <div className={style.cards}>
           <div className={style.or}>
@@ -91,12 +84,12 @@ function Home() {
             >
               <img src={pokeB} alt="pokebola" className={style.pokeB} />
             </button>
-              <Paginado
-                pokePage={pokePage}
-                all={all.length}
-                paginado={paginado}
-                page={currentPage}
-              />
+            <Paginado
+              pokePage={pokePage}
+              all={all.length}
+              paginado={paginado}
+              page={currentPage}
+            />
             <div className={style.filter_sort}>
               <select onChange={(event) => handlerSort(event)}>
                 <option value="normal">Normal </option>
@@ -128,7 +121,6 @@ function Home() {
 
           {pokeCurrent.length ? (
             <div>
-
               <Cards pokeCurrent={pokeCurrent} />
 
               <Paginado

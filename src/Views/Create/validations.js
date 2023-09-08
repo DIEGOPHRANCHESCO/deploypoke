@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-// const pokemons = useSelector((state) =>
-//     state.allPoke.map((poke) => poke.name)
-
-
 export const validations = (form, pokemons) => {
   let reg = /^[a-zA-Z\s]*$/;
   const error = {};
@@ -35,7 +24,6 @@ export const validations = (form, pokemons) => {
 
   if (!form.moves) {
     error.moves = "what moves your Pokemon ?";
-
   }
   if (!reg.test(form.moves)) {
     error.moves = "Numbers or special characters are not allowed";

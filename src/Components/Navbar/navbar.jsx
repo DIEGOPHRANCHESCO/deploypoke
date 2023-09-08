@@ -2,13 +2,6 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 import style from "./navbar.module.css";
 import Search from "../SearchBar/searchBar";
 
-
-
-
-
-
-
-
 function Navbar({ handleChange, handleSubmit }) {
   return (
     <div className={style.nav}>

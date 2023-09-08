@@ -3,9 +3,6 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPokes, getTypes, postPokemon } from "../../Redux/Actions/action";
 import style from "./create.module.css";
-// import imgType from "../../image/imgType"
-
-// const ty = require.context('../../image/imgType',true)
 
 const formI = {
   name: "",

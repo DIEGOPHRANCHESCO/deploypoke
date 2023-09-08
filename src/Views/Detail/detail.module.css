@@ -1,13 +1,10 @@
-.contenedor{
-	
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center ;
-		min-height: 100vh;
-		background: url(../../image/oo.png)
-		no-repeat center center fixed;
-		background-size: cover;
-	
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../../image/oo.png) no-repeat center center fixed;
+  background-size: cover;
 }

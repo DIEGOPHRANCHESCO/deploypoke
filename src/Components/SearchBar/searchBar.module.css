@@ -1,33 +1,32 @@
 .input_search {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-	padding: 0 0.5rem;
-	height: 6vh;
-	width: 20vw;
-	border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 5px;
 }
-
 
 .btn {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-	background-color: black;
-	border-radius: 5px;
-	cursor: pointer;
-	color: white;
-	letter-spacing: .1rem;
-	font-size: 1.2em;
-	width: 8vw;
-	height: 7vh;
-	padding: 0 0.5rem;
-	margin-left: 1rem;
-	line-height: 2;
-	transition: transform 250ms ease;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1.2em;
+  width: 8vw;
+  height: 7vh;
+  padding: 0 0.5rem;
+  margin-left: 1rem;
+  line-height: 2;
+  transition: transform 250ms ease;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgb(22, 22, 22);
-    color: rgb(185, 185, 185);
-	transform: scale(1.02);
-
+  color: rgb(185, 185, 185);
+  transform: scale(1.02);
 }

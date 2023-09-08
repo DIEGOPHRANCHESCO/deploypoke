@@ -3,9 +3,4 @@ import Create from "./Create/create";
 import Detail from "./Detail/detail";
 import Landing from "./Landing/landing";
 
-export {
-  Home,
-  Create,
-  Detail,
-  Landing,
-};
+export { Home, Create, Detail, Landing };
