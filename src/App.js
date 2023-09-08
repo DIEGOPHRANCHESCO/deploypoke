@@ -15,7 +15,7 @@ return (
   <div className="App">
       {Location.pathname !== "/" &&   <Navbar /> }
     
-      <Route exact path="/" component={Landing} />
+      <Route exact path="/deploypoke" component={Landing} />
       <Route exact path="/home" component={Home} />
       <Route exact path="/detail/:id" component={Detail } />
       <Route excat path="/create" component={Create} />
