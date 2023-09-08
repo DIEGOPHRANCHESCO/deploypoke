@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/deploypoke/static/css/main.40539bec.chunk.css",
-    "main.js": "/deploypoke/static/js/main.06e18ed6.chunk.js",
-    "main.js.map": "/deploypoke/static/js/main.06e18ed6.chunk.js.map",
-    "runtime-main.js": "/deploypoke/static/js/runtime-main.5224b99c.js",
-    "runtime-main.js.map": "/deploypoke/static/js/runtime-main.5224b99c.js.map",
-    "static/js/2.5f74203f.chunk.js": "/deploypoke/static/js/2.5f74203f.chunk.js",
-    "static/js/2.5f74203f.chunk.js.map": "/deploypoke/static/js/2.5f74203f.chunk.js.map",
-    "static/js/3.6ae0dc0d.chunk.js": "/deploypoke/static/js/3.6ae0dc0d.chunk.js",
-    "static/js/3.6ae0dc0d.chunk.js.map": "/deploypoke/static/js/3.6ae0dc0d.chunk.js.map",
-    "index.html": "/deploypoke/index.html",
-    "static/css/main.40539bec.chunk.css.map": "/deploypoke/static/css/main.40539bec.chunk.css.map",
-    "static/js/2.5f74203f.chunk.js.LICENSE.txt": "/deploypoke/static/js/2.5f74203f.chunk.js.LICENSE.txt",
-    "static/media/create.module.css": "/deploypoke/static/media/creat.05ed0f92.png",
-    "static/media/navbar.module.css": "/deploypoke/static/media/homePoke.15b3d1de.png",
-    "static/media/landing.module.css": "/deploypoke/static/media/landingPokr.d9a0064d.png",
-    "static/media/detail.module.css": "/deploypoke/static/media/oo.ab092ea7.png",
-    "static/media/home.module.css": "/deploypoke/static/media/p.e537049b.png",
-    "static/media/pokeB.32353372.png": "/deploypoke/static/media/pokeB.32353372.png"
+    "main.css": "/static/css/main.e519f160.chunk.css",
+    "main.js": "/static/js/main.06e18ed6.chunk.js",
+    "main.js.map": "/static/js/main.06e18ed6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ae79e46b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ae79e46b.js.map",
+    "static/js/2.5f74203f.chunk.js": "/static/js/2.5f74203f.chunk.js",
+    "static/js/2.5f74203f.chunk.js.map": "/static/js/2.5f74203f.chunk.js.map",
+    "static/js/3.6ae0dc0d.chunk.js": "/static/js/3.6ae0dc0d.chunk.js",
+    "static/js/3.6ae0dc0d.chunk.js.map": "/static/js/3.6ae0dc0d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e519f160.chunk.css.map": "/static/css/main.e519f160.chunk.css.map",
+    "static/js/2.5f74203f.chunk.js.LICENSE.txt": "/static/js/2.5f74203f.chunk.js.LICENSE.txt",
+    "static/media/create.module.css": "/static/media/creat.05ed0f92.png",
+    "static/media/navbar.module.css": "/static/media/homePoke.15b3d1de.png",
+    "static/media/landing.module.css": "/static/media/landingPokr.d9a0064d.png",
+    "static/media/detail.module.css": "/static/media/oo.ab092ea7.png",
+    "static/media/home.module.css": "/static/media/p.e537049b.png",
+    "static/media/pokeB.32353372.png": "/static/media/pokeB.32353372.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5224b99c.js",
+    "static/js/runtime-main.ae79e46b.js",
     "static/js/2.5f74203f.chunk.js",
-    "static/css/main.40539bec.chunk.css",
+    "static/css/main.e519f160.chunk.css",
     "static/js/main.06e18ed6.chunk.js"
   ]
 }
