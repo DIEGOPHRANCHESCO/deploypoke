@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/deploypoke/static/css/main.40539bec.chunk.css",
-    "main.js": "/deploypoke/static/js/main.06e18ed6.chunk.js",
-    "main.js.map": "/deploypoke/static/js/main.06e18ed6.chunk.js.map",
+    "main.css": "/deploypoke/static/css/main.69b8701b.chunk.css",
+    "main.js": "/deploypoke/static/js/main.56bc4821.chunk.js",
+    "main.js.map": "/deploypoke/static/js/main.56bc4821.chunk.js.map",
     "runtime-main.js": "/deploypoke/static/js/runtime-main.5224b99c.js",
     "runtime-main.js.map": "/deploypoke/static/js/runtime-main.5224b99c.js.map",
     "static/js/2.5f74203f.chunk.js": "/deploypoke/static/js/2.5f74203f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6ae0dc0d.chunk.js": "/deploypoke/static/js/3.6ae0dc0d.chunk.js",
     "static/js/3.6ae0dc0d.chunk.js.map": "/deploypoke/static/js/3.6ae0dc0d.chunk.js.map",
     "index.html": "/deploypoke/index.html",
-    "static/css/main.40539bec.chunk.css.map": "/deploypoke/static/css/main.40539bec.chunk.css.map",
+    "static/css/main.69b8701b.chunk.css.map": "/deploypoke/static/css/main.69b8701b.chunk.css.map",
     "static/js/2.5f74203f.chunk.js.LICENSE.txt": "/deploypoke/static/js/2.5f74203f.chunk.js.LICENSE.txt",
     "static/media/create.module.css": "/deploypoke/static/media/creat.05ed0f92.png",
     "static/media/navbar.module.css": "/deploypoke/static/media/homePoke.15b3d1de.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.5224b99c.js",
     "static/js/2.5f74203f.chunk.js",
-    "static/css/main.40539bec.chunk.css",
-    "static/js/main.06e18ed6.chunk.js"
+    "static/css/main.69b8701b.chunk.css",
+    "static/js/main.56bc4821.chunk.js"
   ]
 }
