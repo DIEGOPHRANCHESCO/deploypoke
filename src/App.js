@@ -20,6 +20,10 @@ return (
       <Route exact path="/detail/:id" component={Detail } />
       <Route excat path="/create" component={Create} />
       
+      <Route path="*">
+        <Redirect to="/" />
+      </Route>
+      
     </div>
   );
 }
